@@ -56,6 +56,18 @@ html, body {
     padding: 20px 40px; 
 }
 
+.top-pigeons{
+    background-color white;
+}
+
+.top-pigeons-content{
+    color:#1F2937;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px; 
+    
+}
+
 .quote {
     background-color:#E5E7EB;
 }
@@ -83,10 +95,21 @@ html, body {
     margin-top: 0px;
 }
 
-.information-header {
+.top-pigeons-header {
     color:#1F2937;
     font-weight:900;
     font-size:36px;
+    text-align:center;
+}
+
+.top-pigeon-images{
+    width: 100%;            
+    height: auto;          
+    max-width: 200px;      
+    max-height: 200px;     
+    border-radius:10px;
+    border-style:solid;
+    border-color:#3882F6;
 }
 
 .call-to-action {
@@ -125,6 +148,14 @@ html, body {
     font-weight:700; 
     font-size:24px;
     margin-bottom:5px;
+}
+
+.top-pigeon-profiles {
+display:flex;
+gap:50px;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 .call-to-action-secondary-text{
