@@ -1,22 +1,32 @@
+/* Global styling */
+
 * {
-font-family:Roboto
+font-family:Roboto;
 }
 
-.header-container{
-    display:flex;
-}
-
-.hero-image{
-    width: 100%;            
-    height: auto;          
-    max-width: 400px;      
-    max-height: 300px;     
-    border-radius:10px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 button {
     max-width:100px;
 }
+
+/* Multi-element styling */
+
+.hero-main-text, .hero-secondary-text, .call-to-action {
+    margin: 0;        
+    padding: 0;              
+}
+
+.hero-secondary-text, .header-links{
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+/* Hero styling */
+
 
 .hero-container{
     display:flex;
@@ -25,25 +35,33 @@ button {
     padding: 40px 0px 40px 0px;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 .hero-container div {
     flex:1;
+}
+
+.header-links{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-container{
+    display:flex;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column; 
     gap: 20px; 
-
 }
 
-.hero-main-text, .hero-secondary-text, .call-to-action {
-    margin: 0;        
-    padding: 0;              
+.hero-image{
+    width: 100%;            
+    height: auto;          
+    max-width: 400px;      
+    max-height: 300px;     
+    border-radius:10px;
 }
 
 .hero-banner {
@@ -56,8 +74,31 @@ html, body {
     padding: 20px 40px; 
 }
 
+.hero-logo{
+    color:#F9FAF8;
+    font-size:24px; 
+    font-weight:900;
+    margin-top: 0px;
+}
+
+.hero-main-text{
+    color:#F9FAF8;
+    font-weight:900;
+    font-size:48px;
+}
+
+/* Top pigeons styling */
+
 .top-pigeons{
-    background-color white;
+    background-color: white;
+}
+
+.top-pigeon-profiles {
+    display:flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .top-pigeons-content{
@@ -67,6 +108,18 @@ html, body {
     padding: 20px 40px; 
     
 }
+
+.top-pigeon-images{
+    width: 100%;            
+    height: auto;          
+    max-width: 200px;      
+    max-height: 200px;     
+    border-radius:10px;
+    border-style:solid;
+    border-color:#3882F6;
+}
+
+/* Quote styling */
 
 .quote {
     background-color:#E5E7EB;
@@ -102,15 +155,7 @@ html, body {
     text-align:center;
 }
 
-.top-pigeon-images{
-    width: 100%;            
-    height: auto;          
-    max-width: 200px;      
-    max-height: 200px;     
-    border-radius:10px;
-    border-style:solid;
-    border-color:#3882F6;
-}
+/* Call to action styling */
 
 .call-to-action {
     background-color: white;
@@ -150,40 +195,7 @@ html, body {
     margin-bottom:5px;
 }
 
-.top-pigeon-profiles {
-display:flex;
-gap:50px;
-align-items: center;
-justify-content: center;
-text-align: center;
-}
-
 .call-to-action-secondary-text{
     font-size:16px;
     margin-top: 0px;
-}
-
-.hero-logo{
-    color:#F9FAF8;
-    font-size:24px; 
-    font-weight:900;
-    margin-top: 0px;
-}
-
-.hero-secondary-text, .header-links{
-    color:#E5E7EB;
-    font-size:18px;
-}
-
-.hero-main-text{
-    color:#F9FAF8;
-    font-weight:900;
-    font-size:48px;
-}
-
-.header-links{
-    flex:1;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
 }
