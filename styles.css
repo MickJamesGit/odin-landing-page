@@ -25,6 +25,11 @@ button {
     padding: 40px 0px 40px 0px;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .hero-container div {
     flex:1;
 }
@@ -42,7 +47,7 @@ button {
 }
 
 .hero-banner {
-    background-color:#1F2937
+    background-color:#1F2937;
 }
 
 .hero-banner-content {
@@ -85,14 +90,46 @@ button {
 }
 
 .call-to-action {
+    background-color: white;
+    padding: 100px 0px; 
+}
+
+.call-to-action-content {
+    background-color: #3882F6;
+    border-width:0;
+    color: white;    
+    border: none;     
+    border-radius: 10px;   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-button{
     background-color: #3882F6;
     border-width:0;
     color: white;
     font-weight:700;
     padding: 10px 20px;      
-    border: none;     
-    border-radius: 10px;      
-    cursor: pointer; 
+    border-color: white;
+    border-width: 1px;    
+    border-style:solid; 
+    border-radius: 10px;  
+    cursor:pointer;
+}
+
+.call-to-action-header{
+    font-weight:700; 
+    font-size:24px;
+    margin-bottom:5px;
+}
+
+.call-to-action-secondary-text{
+    font-size:16px;
+    margin-top: 0px;
 }
 
 .hero-logo{
